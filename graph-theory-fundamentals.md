@@ -57,3 +57,68 @@ Notation: $K_n$ where n is the number of vertices.
 ![](assets/k2.png){width=250px}
 ![](assets/k3.png){width=250px}
 ![](assets/k4.png){width=250px}
+
+\newpage
+
+## Cycles
+
+Every vertex must have a degree of two, and the graph must be closed.
+
+Spread vertices out to a circle for best image as done below.
+
+![](assets/c3.png){width=250px}
+![](assets/c4.png){width=250px}
+![](assets/c5.png){width=250px}
+
+\newpage
+
+## Wheels
+
+Like a cycle, but with a central vertex that connects to all other vertices.
+
+![](assets/w3.png){width=250px}
+![](assets/w4.png){width=250px}
+![](assets/w5.png){width=250px}
+
+
+\newpage
+
+## Bipartite Graph
+
+For sets of vertices $v_1$ and $v_2$, every edge connects a vertex in $v_1$ to $v_2$.
+
+The following graph is bipartite:
+
+![](assets/bipartite.png){width=250px}
+
+It can be partitioned into the following sets:
+
+$v_1$ = {a, c}
+
+$v_2$ = {b, d}
+
+Note: triangles and wheels are _not_ bipartite.
+
+\newpage
+
+## Coloring/Color Theory
+
+_Coloring_ can be used to determine if a graph is bipartite. A graph's vertices can be colored with two alternating colors if it is bipartite:
+
+![](assets/bi-colors.png){width=250px}
+
+The following graph can _not_ be colored using two alternating colors:
+
+![](assets/not-bipartite.png){width=250px}
+
+\newpage
+
+## Adjacency Matrix
+
+A square n x n matrix for n vertices that counts number of edges in between vertices. It will always be symmetrical.
+
+![](assets/bipartite.png){width=250px}
+
+The adjacency matrix for the graph above:
+
+![](assets/adjmat.png){width=150px}
